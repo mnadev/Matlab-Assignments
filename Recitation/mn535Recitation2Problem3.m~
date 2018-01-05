@@ -1,0 +1,6 @@
+%this script simulates a binary half adder
+
+bitA = input(['What is the value of the first bit to go into the binary adder?']); %First input bit
+bitB = input(['What is the value of the second bit to go into the binary adder?']); %Second input bit
+
+xorBit = xor(bitA, bitB);

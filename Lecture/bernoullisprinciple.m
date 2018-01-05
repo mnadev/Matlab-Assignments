@@ -1,0 +1,12 @@
+g=9.8;
+rho=9;
+v1=4;
+h1=5;
+h2=4;
+v2=5;
+p2=300;
+ke1 = 0.5*rho*v1^2;
+ke2 = 0.5*rho*v2^2;
+gpe1 = rho*g*h1;
+gpe2 = rho*g*h2;
+p1 = ke1-ke2+gpe1-gpe2-p2;

@@ -1,0 +1,1 @@
+function (xArray) = mn535Recitation8Problem2(arrayCoeff, arrayConst)
